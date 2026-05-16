@@ -17,7 +17,7 @@ function About() {
               Hi! I'm Sai Sujan 👋
             </h3>
             <p className="text-gray-400 leading-relaxed mb-4">
-              I'm a 3rd year B.Tech Computer Science student specializing 
+              I'm a Fourth year B.Tech Computer Science student specializing 
               in AI & ML at Sreyas Institute of Engineering and Technology, 
               Hyderabad, graduating in 2027.
             </p>
