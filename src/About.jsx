@@ -25,7 +25,11 @@ function About() {
               I'm passionate about building full stack web applications 
               that solve real problems. I recently built DevBoard — a 
               complete project management tool using React, Node.js and 
-              MongoDB that is live on the internet.
+              MongoDB that is live on the internet. And I have also built
+              alpha trading website - a complete trading webiste with AI 
+              this AI can be used to predict the stock market prices and 
+              all other things . This was build by using type script and 
+              this website is live on internet. 
             </p>
             <p className="text-gray-400 leading-relaxed mb-8">
               I'm actively looking for frontend and full stack internship 
@@ -56,7 +60,7 @@ function About() {
           {/* Right - Stats */}
           <div className="grid grid-cols-2 gap-6">
             <div className="bg-gray-800 rounded-xl p-6 text-center border border-gray-700">
-              <h4 className="text-4xl font-bold text-blue-500 mb-2">3+</h4>
+              <h4 className="text-4xl font-bold text-blue-500 mb-2">5+</h4>
               <p className="text-gray-400">Projects Built</p>
             </div>
             <div className="bg-gray-800 rounded-xl p-6 text-center border border-gray-700">
@@ -64,11 +68,11 @@ function About() {
               <p className="text-gray-400">Certifications</p>
             </div>
             <div className="bg-gray-800 rounded-xl p-6 text-center border border-gray-700">
-              <h4 className="text-4xl font-bold text-blue-500 mb-2">10+</h4>
+              <h4 className="text-4xl font-bold text-blue-500 mb-2">15+</h4>
               <p className="text-gray-400">Technologies</p>
             </div>
             <div className="bg-gray-800 rounded-xl p-6 text-center border border-gray-700">
-              <h4 className="text-4xl font-bold text-blue-500 mb-2">1</h4>
+              <h4 className="text-4xl font-bold text-blue-500 mb-2">3</h4>
               <p className="text-gray-400">Live App</p>
             </div>
           </div>

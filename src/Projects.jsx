@@ -20,7 +20,7 @@ function Projects() {
       title: "Alpha Trading – AI Financial Platform",
       description: "An AI-powered financial platform that simplifies stock market interactions with portfolio tracking, real-time data, and smart recommendations.",
       tech: ["Python", "React", "AI/ML", "REST APIs"],
-      live: "#",
+      live: "https://alpha-trading-ashen.vercel.app",
       github: "https://github.com/sai27031",
       color: "purple",
     },
