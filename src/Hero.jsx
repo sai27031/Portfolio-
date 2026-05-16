@@ -16,7 +16,7 @@ function Hero() {
         </h2>
 
         <p className="text-gray-400 text-lg max-w-2xl mb-8 leading-relaxed">
-          fourth year CSE student specializing in AI and ML, passionate about
+          Fourth year CSE student specializing in AI and ML, passionate about
           building full stack web applications. I love turning ideas into
           real products using React, Node.js and MongoDB.
         </p>

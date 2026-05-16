@@ -13,8 +13,9 @@ function Navbar() {
           <a href="#projects" className="text-gray-400 hover:text-white transition">Projects</a>
           <a href="#contact" className="text-gray-400 hover:text-white transition">Contact</a>
           <a href="#contact" className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition font-medium">
-            <button> Resume </button>
+             Resume 
             <a href="/resume.pdf" target="_blank" rel="noopener noreferrer"> 
+            Resume 
             </a>
           </a>
         </div>
