@@ -3,9 +3,9 @@ function Navbar() {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-gray-950 border-b border-gray-800 px-8 py-4">
       <div className="max-w-6xl mx-auto flex items-center justify-between">
 
-        <h1 className="text-2xl font-bold text-blue-500">
+        <a href="#" className="text-2xl font-bold text-blue-500">
           Sai Sujan
-        </h1>
+        </a>
 
         <div className="flex items-center gap-8">
           <a href="#about" className="text-gray-400 hover:text-white transition">About</a>
