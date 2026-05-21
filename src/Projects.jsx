@@ -32,6 +32,14 @@ function Projects() {
   github: "https://github.com/sai27031",
   color: "orange",
 },
+{
+  title: "CareerAI - Service based website",
+  description: "An AI-powered SaaS platform built for job seekers.",
+  tech: ["React , Next.js , JavaScript , CSS , Node.js, Supabase , Groq API"],
+  live: "https://career-ai-silk-iota.vercel.app",
+  github: "https://github.com/sai27031",
+  color: "violet",
+}
   ];
 
   const colorMap = {
@@ -39,6 +47,7 @@ function Projects() {
     green: "border-green-500",
     purple: "border-purple-500",
     orange: "border-orange-500",
+    violet: "border-violet-500"
   };
 
   const tagColorMap = {
@@ -46,6 +55,7 @@ function Projects() {
     green: "bg-green-900 text-green-300",
     purple: "bg-purple-900 text-purple-300",
     orange: "bg-orange-900 text-orange-300", 
+    violet: "bg-violet-900 text-violet-300"
   };
 
   
