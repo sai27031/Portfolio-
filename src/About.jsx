@@ -60,19 +60,19 @@ function About() {
           {/* Right - Stats */}
           <div className="grid grid-cols-2 gap-6">
             <div className="bg-gray-800 rounded-xl p-6 text-center border border-gray-700">
-              <h4 className="text-4xl font-bold text-blue-500 mb-2">5+</h4>
+              <h4 className="text-4xl font-bold text-blue-500 mb-2">11+</h4>
               <p className="text-gray-400">Projects Built</p>
             </div>
             <div className="bg-gray-800 rounded-xl p-6 text-center border border-gray-700">
-              <h4 className="text-4xl font-bold text-blue-500 mb-2">5+</h4>
+              <h4 className="text-4xl font-bold text-blue-500 mb-2">6+</h4>
               <p className="text-gray-400">Certifications</p>
             </div>
             <div className="bg-gray-800 rounded-xl p-6 text-center border border-gray-700">
-              <h4 className="text-4xl font-bold text-blue-500 mb-2">15+</h4>
+              <h4 className="text-4xl font-bold text-blue-500 mb-2">20+</h4>
               <p className="text-gray-400">Technologies</p>
             </div>
             <div className="bg-gray-800 rounded-xl p-6 text-center border border-gray-700">
-              <h4 className="text-4xl font-bold text-blue-500 mb-2">3</h4>
+              <h4 className="text-4xl font-bold text-blue-500 mb-2">5</h4>
               <p className="text-gray-400">Live App</p>
             </div>
           </div>

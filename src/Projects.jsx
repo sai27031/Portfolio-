@@ -1,5 +1,4 @@
 import { useState } from "react";
-
 function Projects() {
   const [activeFilter, setActiveFilter] = useState("All");
 
@@ -49,6 +48,16 @@ function Projects() {
       color: "violet",
       domain: "Full Stack",
     },
+    {
+      title: "Shopsavyy - Smart E - Commerece platform ",
+      description: "Shopsavvy is an AI powered E- Commerce website where you can buy the items (clothes , electronics ) etc.. It is build by using JavaScript , React , CSS for styling . And AI has been integrated using Groq Api key .",
+      tech: ["React", "Node.js", "JavaScript", "CSS", "MangoDB", "Groq API", "JWT"],
+      live: "https://shopsavyy.vercel.app/",
+      github: "https://github.com/sai27031/Shopsavyy-",
+      color: "Red",
+      domain: "Full Stack",
+    },
+
   ];
 
   const colorMap = {
@@ -57,6 +66,8 @@ function Projects() {
     purple: "border-purple-500",
     orange: "border-orange-500",
     violet: "border-violet-500",
+    Red: "border-Red-500",
+
   };
 
   const tagColorMap = {
@@ -65,6 +76,7 @@ function Projects() {
     purple: "bg-purple-900 text-purple-300",
     orange: "bg-orange-900 text-orange-300",
     violet: "bg-violet-900 text-violet-300",
+    Red: "bg-Red-900 text-Red-300",
   };
 
   const domainColorMap = {
@@ -86,11 +98,13 @@ function Projects() {
     <section id="projects" className="py-20 px-8 bg-gray-900">
       <div className="max-w-6xl mx-auto">
 
+        {/* Header */}
         <div className="text-center mb-10">
           <h2 className="text-4xl font-bold text-white mb-4">Projects</h2>
           <div className="w-20 h-1 bg-blue-600 mx-auto rounded"></div>
         </div>
 
+        {/* Stats Bar */}
         <div className="flex flex-wrap justify-center gap-4 mb-8">
           <div className="bg-gray-800 rounded-xl px-6 py-3 text-center border border-gray-700">
             <div className="text-2xl font-bold text-white">{projects.length}</div>
@@ -104,6 +118,7 @@ function Projects() {
           ))}
         </div>
 
+        {/* Filter Buttons */}
         <div className="flex flex-wrap justify-center gap-3 mb-10">
           {domains.map(domain => (
             <button
@@ -120,6 +135,7 @@ function Projects() {
           ))}
         </div>
 
+        {/* Projects Grid */}
         <div className="grid grid-cols-3 gap-6">
           {filtered.map(project => (
             <div key={project.title} className={`bg-gray-800 rounded-xl p-6 border-t-4 ${colorMap[project.color]} flex flex-col justify-between`}>
